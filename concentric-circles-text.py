@@ -19,7 +19,7 @@ def draw_cd():
     cd_hole_diameter = 75 * SCALE_MM_TO_PX
 
     with savedState():
-        strokeWidth(.5)
+        strokeWidth(2)
         stroke(1, 0, 0)
         oval(0, 0, cd_diameter,cd_diameter)
         oval(width / 2 - cd_center_diameter / 2, height / 2 - cd_center_diameter / 2, cd_center_diameter, cd_center_diameter)
@@ -190,6 +190,6 @@ print('font size:', int(FONT_SIZE))
 print('min radius:', int(RADIUS_START))
 print('steps:', int(STEPS))
 
-# saveImage('./examples/grao-territorio-percussivo.png')
-# saveImage('./examples/grao-territorio-percussivo.svg')
-# saveImage('./examples/grao-territorio-percussivo.pdf')
+saveImage('./examples/grao-territorio-percussivo.png')
+saveImage('./examples/grao-territorio-percussivo.svg')
+saveImage('./examples/grao-territorio-percussivo.pdf')
