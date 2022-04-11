@@ -18,5 +18,5 @@ This code was originally made for the visual identity of the music album **Grão
 ![grao-compactdisk-case](./examples/project-mockups/grao-territorio-percussivo-compactdisk-case.png "Grão Compact Disk and Case")
 ![grao-compactdisk-case-detail](./examples/project-mockups/grao-territorio-percussivo-compactdisk-case-detail.png "Grão Compact Disk and Case detail")  
 
-## About the used fonts  
+## About the fonts used on this project
 As it seems on the mockups, i've used the font [Botanika Mono](https://www.suitcasetype.com/fonts/botanika) (Tomáš Brousil / Suitcase Type Foundry) for the text. Because of licensing restrictions, this code has been set to work with **Courier**. Using a typography whose glyphs are the same width is preferable and produces a better result.
