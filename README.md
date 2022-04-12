@@ -8,6 +8,8 @@ This code was originally made for the visual identity of the music album **Grão
 
 [Checkout the full process on Behance](https://www.behance.net/gallery/130839663/Grao-Territorio-Percussivo)  
 
+[Listen to the music album on Spotify](https://open.spotify.com/album/3klOPziA8SREniODpKAsze?si=AC7oPuiCSduEyxzfPm9Kdg)
+
 ## Examples  
 
 ### Basic output  
