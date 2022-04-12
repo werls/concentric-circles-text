@@ -17,7 +17,6 @@ This code was originally made for the visual identity of the music album **Grão
 ### The way that the output image was used on the compact disk  
 ![grao-compactdisk](./examples/project-mockups/grao-territorio-percussivo-compactdisk.png "Grão Compact Disk")  
 ![grao-compactdisk-case](./examples/project-mockups/grao-territorio-percussivo-compactdisk-case.png "Grão Compact Disk and Case")
-![grao-compactdisk-case-detail](./examples/project-mockups/grao-territorio-percussivo-compactdisk-case-detail.png "Grão Compact Disk and Case detail")  
 
 ### Text and debug  
 ![text-and-debug](./examples/project-mockups/grao-debug.gif "Text and debug")
