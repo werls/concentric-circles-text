@@ -7,8 +7,6 @@
 # Full design process on Behance:
 # https://www.behance.net/gallery/130839663/Grao-Territorio-Percussivo
 
-# For the measures, i'm considering the milimeters
-
 from drawBot import *
 
 SCALE_MM_TO_PX = 3.7795275591
@@ -36,7 +34,7 @@ def setup():
     # produces a better result. For the original
     # project, the font was Botanika Mono
     # (Tomáš Brousil / Suitcase Type Foundry)
-    font('Courier', int(FONT_SIZE))
+    font('./SpaceMono-Bold.ttf', int(FONT_SIZE))
     rotate(pi / 2)
 
 def draw(_text_list):
@@ -70,13 +68,13 @@ def draw(_text_list):
     
     a = 0
     inc = 0
-    sobra_steps = _steps
+    over_steps = _steps
     angle_inc = (pi * 2) / _steps
     _r = RADIUS_START
-    lineHeight = int(FONT_SIZE) * 1.5
+    line_height = int(FONT_SIZE) * 1.5
 
     for m in range(len(_text_list)):
-        sobra_steps -= len(_text_list[m])
+        over_steps -= len(_text_list[m])
 
         for i in range(_steps):
             x = cos(a) * _r
@@ -97,17 +95,17 @@ def draw(_text_list):
         
         if is_sequential:        
             if m < len(_text_list) - 1:
-                if sobra_steps <= len(_text_list[m + 1]):
-                    sobra_steps = _steps
-                    _r += lineHeight
+                if over_steps <= len(_text_list[m + 1]):
+                    over_steps = _steps
+                    _r += line_height
                 else:
-                    sobra_steps -= len(_text_list[m + 1])
+                    over_steps -= len(_text_list[m + 1])
         else:
-            _r += lineHeight
+            _r += line_height
     
         a -= angle_inc * (len(_text_list[m]) + 1)    
         inc += .1
-        # _r += lineHeight
+        # _r += line_height
         # _steps *= 2
 
 ALBUM_SONGS = [
@@ -120,21 +118,11 @@ ALBUM_SONGS = [
            '06∙CORTEJO',
            '07∙IPUAN',
            '08∙XIRÊ',
-           # 'LÉO DE PAULA',
            '09∙JDU TIBIÁ',
            '10∙DE LÁ E DE CÁ',
            '11∙ABRANDAMENTO',
            '12∙DAS ÁGUAS'
            ]
-           
-ALBUM_TITLE = [
-    'GRÃO',
-    'TERRITÓRIO',
-    'PERCUSSIVO',
-    'LÉO',
-    'DE PAULA'
-    ]
-
 
 # Standard values
 FONT_SIZE = 8 * SCALE_MM_TO_PX
@@ -182,7 +170,7 @@ show_cd = True
 
 width, height = 329 * SCALE_MM_TO_PX, 329 * SCALE_MM_TO_PX
 setup()
-# Rotate to a position specific position
+# Rotate to a desired position
 rotate(117)
 draw(ALBUM_SONGS)
 
@@ -191,5 +179,4 @@ print('min radius:', int(RADIUS_START))
 print('steps:', int(STEPS))
 
 # saveImage('./examples/grao-territorio-percussivo.png')
-# saveImage('./examples/grao-territorio-percussivo.svg')
 # saveImage('./examples/grao-territorio-percussivo.pdf')
