@@ -25,4 +25,4 @@ This code was originally made for the visual identity of the music album **Grão
 https://user-images.githubusercontent.com/22551176/162968277-6e3c81cc-2665-45e7-bf7c-edffa33fd2bb.mov
 
 ## About the fonts used on this project
-As it seems on the mockups, i've used the font [Botanika Mono](https://www.suitcasetype.com/fonts/botanika) (Tomáš Brousil / Suitcase Type Foundry) for the text. Because of licensing restrictions, this code has been set to work with the font [Space Mono](https://fonts.google.com/specimen/Space+Mono?query=mono) (Colophon / Google Fonts). Using a typography whose glyphs are the same width is preferable and produces a better result.
+As seen on the mockups, i've used the font [Botanika Mono](https://www.suitcasetype.com/fonts/botanika) (Tomáš Brousil / Suitcase Type Foundry) for the text. Because of licensing restrictions, this code has been set to work with the font [Space Mono](https://fonts.google.com/specimen/Space+Mono?query=mono) (Colophon / Google Fonts). Typefaces that use the same width for all glyphs are preferred and create better results.
