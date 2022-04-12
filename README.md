@@ -6,9 +6,8 @@ Text written in concentric circles. Made with [DrawBot](https://www.drabot.com).
 
 This code was originally made for the visual identity of the music album **Grão — Território Percussivo**, by Léo de Paula.  
 
-[Checkout the full process on Behance](https://www.behance.net/gallery/130839663/Grao-Territorio-Percussivo)  
-
-[Listen to the music album on Spotify](https://open.spotify.com/album/3klOPziA8SREniODpKAsze?si=AC7oPuiCSduEyxzfPm9Kdg)
+→ [Checkout the full process on Behance](https://www.behance.net/gallery/130839663/Grao-Territorio-Percussivo)  
+→ [Listen to the music album on Spotify](https://open.spotify.com/album/3klOPziA8SREniODpKAsze?si=AC7oPuiCSduEyxzfPm9Kdg)
 
 ## Examples  
 
