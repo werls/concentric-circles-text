@@ -1,6 +1,6 @@
 # Concentric Circles Text
 
-Text written in concentric circles. Made with [DrawBot](https://www.drabot.com).
+Text written in concentric circles. Made with [DrawBot](https://www.drawbot.com).
 
 ## About
 
